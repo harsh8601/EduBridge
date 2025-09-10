@@ -1,0 +1,41 @@
+{
+  // Auto Save (after delay)
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000, // 1 second delay
+
+  // Auto Import Suggestions
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+
+  // Update imports when files are moved/renamed
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // Format on Save
+  "editor.formatOnSave": true,
+
+  // Use Prettier as Default Formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Auto-fix & organize imports on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+
+  // ESLint settings
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "json"],
+
+  // Tab & Indentation
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+
+  // File Exclusions
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true
+  }
+}
